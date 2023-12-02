@@ -1,11 +1,11 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    padding-bottom: 10vh;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2), 
         rgba(0, 0, 0, 0.2)
       ), url("./assets/img/cta-bg.jpg");
-      padding-bottom: 10vh;
 }
 
 .nav-bar{
@@ -150,9 +150,7 @@ body{
 
 .content-mid-next{
     text-align: center;
-    background-image: url("./assets/img/whitebg.jpg");
-
-
+    background-color: white;
 }
 
 .service-offering-box{
@@ -191,14 +189,13 @@ body{
 }
 
 .service-container{
-    border: solid 4vh gray;
+    /*border: solid 4vh gray;*/
     border-radius: 2vh;
     margin: 2vh;
     text-align: start;
     padding: 2vw;
-    box-shadow: #31304D;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw gray;
     border-style:none;
-    background-color: whitesmoke;
 }
 
 .service-desc{
