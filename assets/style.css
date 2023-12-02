@@ -83,7 +83,7 @@ body{
 .main-content-mid{
     margin: 0;
     padding-top: 10vh;
-    background-image: url("/assets/img/about-bg.jpg");
+    background-image: url("./assets/img/about-bg.jpg");
     display: flex;
     justify-content: space-between;
 
@@ -153,7 +153,7 @@ body{
 
 .content-mid-next{
     text-align: center;
-    background-image: url("/assets/img/whitebg.jpg");
+    background-image: url("./assets/img/whitebg.jpg");
 
 
 }
