@@ -194,7 +194,7 @@ body{
     margin: 2vh;
     text-align: start;
     padding: 2vw;
-    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw gray;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw #F5F4F8;
     border-style:none;
 }
 
@@ -202,12 +202,15 @@ body{
     color: black;
     font-weight: bold;
     font-size: large;
+
 }
 .service-desc-long{
     color: #414141;
     font-weight: 500;
     font-size: medium;
 }
+
+
 
 
 
