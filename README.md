@@ -1,0 +1,2 @@
+# cloned
+A cloned website.
