@@ -2,7 +2,6 @@ body{
     margin: 0;
     font-family: sans-serif;
     
-    overflow-y: scroll;
 }
 
 .nav-bar{
@@ -75,8 +74,10 @@ body{
 }
 .main-content-mid{
     margin: 0;
+    padding-top: 10vh;
     background-image: url("/assets/img/about-bg.jpg");
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -111,9 +112,26 @@ body{
 
 .mid-right-aside{
     display: flex;
+    margin-right: 6vw;
+    padding-bottom: 10vh;
+
 }
 
 .raside-img-style{
-    width: 5vw;
-    height: 7vh;
+    padding-top: 2vw;
+    width: 3vw;
+    height: 8vh;
+}
+.raside-content{
+    margin-bottom: 10vh;
+    width: 20vw;
+    height: 10vw;
+}
+
+.raside-content-head{
+    font-weight: 700;
+    font-size: 30px;
+}
+.raside-parent-1{
+    padding-right: 2vw;
 }
