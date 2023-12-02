@@ -4,7 +4,7 @@ body{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2), 
         rgba(0, 0, 0, 0.2)
-      ), url("./img/cta-bg.jpg");
+      ), url("./assets/img/cta-bg.jpg");
       padding-bottom: 10vh;
 }
 
