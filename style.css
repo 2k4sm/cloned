@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: sans-serif;
@@ -189,12 +193,12 @@ body{
 }
 
 .service-container{
-    /*border: solid 4vh gray;*/
+    border: solid 4vh gray;
     border-radius: 2vh;
     margin: 2vh;
     text-align: start;
     padding: 2vw;
-    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw #F5F4F8;
+    box-shadow: 0.3vw 0.1vw 0.2vw 0.2vw #F5F4F8;
     border-style:none;
 }
 
@@ -210,7 +214,18 @@ body{
     font-size: medium;
 }
 
+.showcase-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F2F6FA;
+    padding: 10vh;
+}
 
 
+.showcase-img{
+    height: 10vh;
+}
 
-
+.showcase{
+    display: flex;
+}
