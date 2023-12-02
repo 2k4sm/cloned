@@ -10,6 +10,8 @@ body{
         rgba(0, 0, 0, 0.2), 
         rgba(0, 0, 0, 0.2)
       ), url("./assets/img/cta-bg.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 .nav-bar{
@@ -78,7 +80,7 @@ body{
 
 
 
-/* Next section*/
+/* section 2*/
 
 .main-content-1{
     margin-top: 0;
@@ -147,7 +149,7 @@ body{
 }
 
 
-/*Next Section*/
+/*Section 3 part 1*/
 .service-imgs{
     width: 10vw;
 }
@@ -214,6 +216,8 @@ body{
     font-size: medium;
 }
 
+
+/* section 3 part 2*/
 .showcase-container{
     display: flex;
     justify-content: space-evenly;
@@ -224,8 +228,29 @@ body{
 
 .showcase-img{
     height: 10vh;
+    margin-top: 5vh;
 }
 
 .showcase{
     display: flex;
+    align-items: start;
 }
+
+.num{
+    font-size:5vh;
+    font-weight: 900;
+}
+.showcase-head{
+    color: #426C7E;
+    font-size: large;
+}
+
+.showcase-content{
+    width: 15vw;
+    text-align: start;
+}
+
+/*Section 3 part 3*/
+
+
+
