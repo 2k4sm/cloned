@@ -26,6 +26,7 @@ body{
     width: 60vw;
     display: flex;
     justify-content: space-between;
+    padding: 2vh;
 }
 
 .site-title{
@@ -252,5 +253,29 @@ body{
 
 /*Section 3 part 3*/
 
+.call-to-action{
+    text-align: center  ;
+    padding: 5vh;
+    background-color: rgba(105, 137, 226, 0.808);
+    background-blend-mode: multiply;
+}
 
+.action-head{
+    font-size: xx-large;
+    color: #F4FFFF;
+}
+
+.action-content{
+    color: #F4FFFF;
+    font-size:larger;
+}
+.action-button{
+    color: #F4FFFF;
+    background-color: transparent;
+    border: 2px solid#F4FFFF;
+    padding: 1vh 10vh ;
+    border-radius: 20vh;
+    font-size: larger;
+    margin: 5vh;
+}
 
