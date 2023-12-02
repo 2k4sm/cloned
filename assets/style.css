@@ -1,10 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.2)
-      ), url("./img/cta-bg.jpg");
+    
     overflow-y: scroll;
 }
 
@@ -68,4 +65,55 @@ body{
 
 .nav-drop-down:hover .dropdown-content{
     display: block;
+}
+
+.main-content-1{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ), url("./img/cta-bg.jpg");
+}
+.main-content-mid{
+    margin: 0;
+    background-image: url("/assets/img/about-bg.jpg");
+    display: flex;
+
+}
+
+.mid-left-aside{
+    padding: 2vw;
+}
+
+.laside-head{
+    width: 25vw;
+    color: #31304D;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.laside-content{
+    width: 35vw;
+    color: #31304D;
+    font-size: larger;
+}
+.laside-button{
+    border-radius: 25px;
+    background-color: #89B9AD;
+    width: 8vw;
+    height: 4vh;
+    border-style: none;
+    margin-top: 3vh;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.mid-right-aside{
+    display: flex;
+}
+
+.raside-img-style{
+    width: 5vw;
+    height: 7vh;
 }
