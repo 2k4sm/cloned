@@ -401,8 +401,12 @@ a{
 
 .color{
     background-color: #FEFEFE;
+    padding: 5vh;
 }
 
+.text-color{
+    color: #6B6B6B;
+}
 .reach-img{
     width: 5vh;
 }
@@ -410,19 +414,78 @@ a{
 .social-address{
     display: flex;
     justify-content: space-between;
+    width: 50%;
 }
 
 .email{
-    margin: 1vh;
-    width: 50%;
+    margin:0 1.5vh;
+    width: 100%;
 }
 
 .phone{
-    margin: 1vh;
-    width: 50%;
+    margin:0 1.5vh;
+    width: 100%;
 }
 
 .address{
     width: 50%;
+    margin:0 1.5vh;
+
 }
 
+.map{
+    margin-bottom: 5vh;
+}
+
+
+.send-message{
+    width: 50%;
+    background-color: #FEFEFE;
+    margin:0 2vh;
+    margin-bottom: 5vh;
+}
+
+.name{
+    width: 100%;
+}
+
+.name-1{
+    width: 47%;
+    height: 5vh;
+    margin:2vh 0;
+    color: #747474;
+    font-size: larger;
+    border: #EAEBEE solid 2px;
+}
+
+
+.name-2{
+    width: 95%;
+    height: 5vh;
+    margin:2vh 0;
+    color: #747474;
+    font-size: larger;
+    border: #EAEBEE solid 2px;
+
+
+}
+
+textarea{
+    width: 95%;
+    height: 20vh;
+    margin:2vh 0;
+    color: #747474;
+    font-size: x-large;
+    border: #EAEBEE solid 2px;
+}
+
+.sub{
+    background-color: #5CA6CB;
+    border-style: none;
+    color: #FEFEFE;
+    width: 9vw;
+    height: 5vh;
+    font-size: larger;
+    font-weight: 600;
+
+}
