@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav id="home" class="nav-bar">
         <div class="site-title">
             <p class="mainpg-item-style">LOREM IPSUM</p>
         </div>
         <div class="pg-navs">
-            <a class="nav-home mainpg-item-style mainpg-it">Home</a>
-            <a class="nav-about-us mainpg-item-style mainpg-it">About Us</a>
-            <a class="nav-services mainpg-item-style mainpg-it">Services</a>
-            <a class="nav-portfolio mainpg-item-style mainpg-it">Portfolio</a>
-            <a class="nav-team mainpg-item-style mainpg-it">Team</p>
+            <a class="nav-home mainpg-item-style mainpg-it" href="#home">Home</a>
+            <a class="nav-about-us mainpg-item-style mainpg-it" href="#about">About Us</a>
+            <a class="nav-services mainpg-item-style mainpg-it" href="#services">Services</a>
+            <a class="nav-portfolio mainpg-item-style mainpg-it" href="#portfolio">Portfolio</a>
+            <a class="nav-team mainpg-item-style mainpg-it" href="#team">Team</p>
             <div class="nav-drop-1">
                 <button class="nav-drop-down mainpg-item-style mainpg-it">Drop Down</button>
                 <ul class="dropdown-content-1">
@@ -72,7 +72,7 @@
                     </li>
                   </ul> 
             </div>
-            <a class="nav-contact mainpg-item-style">Contact</a>
+            <a class="nav-contact mainpg-item-style" href="#contact">Contact</a>
         </div>
     </nav>
     <section class="main-content-1">
@@ -80,11 +80,12 @@
         <div class="main-content-initial">
             <p class="mid-big-text mainpg-item-style">LOREM IPSUM</p>
             <p class="mid-small-text mainpg-item-style">LOREM IPSUM LOREM IPSUM</p>
-            <img class="main-scrollto-down mainpg-item-style" src="./assets/img/scroll-down.svg" alt="scroll-to-next-section">
+            <a href="#about"><img class="main-scrollto-down mainpg-item-style" src="./assets/img/scroll-down.svg" alt="scroll-to-next-section"></a>
+            
         </div>
     </main>
     </section>
-    <section class="main-content-mid">
+    <section class="main-content-mid" id="about">
         <aside class="mid-left-aside">
             <p class="laside-head">Lorem ipsum dolor sit amet Lorem ipsum dolor</p>
             <p class="laside-content">
@@ -127,7 +128,7 @@
         </aside>
 
     </section>
-    <section class="content-mid-next">
+    <section class="content-mid-next" id="services">
         <div class="img-overlay">
             <img class="img-services img-portfolio" src="./assets/img/section-title-bg.png" alt="services-img">
             <p class="overlay-text port-overlay-text">Services</p>
@@ -193,7 +194,7 @@
         <p class="action-content">dfsdfslkjkde magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
         <button class="action-button">Call To Action</button>
     </div>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="img-overlay">
             <img class="img-services img-portfolio" src="./assets/img/section-title-bg.png" alt="services-img">
             <p class="overlay-text port-overlay-text">Portfolio</p>
@@ -229,7 +230,7 @@
 
     </div>
 
-    <section class="team">
+    <section class="team" id="team">
         <div class="img-overlay">
             <img class="img-services img-team" src="./assets/img/section-title-bg.png" alt="services-img">
             <p class="overlay-text team-overlay-text">Team</p>
@@ -265,7 +266,7 @@
         </div>
     </section>
 
-    <section class="contact-page">
+    <section class="contact-page" id="contact">
         <div class="img-overlay">
             <img class="img-services img-team" src="./assets/img/section-title-bg.png" alt="services-img">
             <p class="overlay-text team-overlay-text">Contact</p>
