@@ -390,6 +390,7 @@ a{
 .contact-page{
     text-align: center;
     background-color: #F2F6FA;
+    padding-bottom: 1vh;
 }
 
 .how-to-reach{
@@ -487,5 +488,14 @@ textarea{
     height: 5vh;
     font-size: larger;
     font-weight: 600;
+
+}
+
+
+/* footer */
+
+
+.footer{
+    width: 100%;
 
 }
