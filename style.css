@@ -331,3 +331,9 @@ a{
 .team{
     background-color: #FEFEFE;
 }
+
+.team-overlay-text{
+    margin-top: 5vh;
+    font-size: 4vh;
+
+}
