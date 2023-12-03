@@ -5,7 +5,6 @@ html{
 body{
     margin: 0;
     font-family: sans-serif;
-    padding-bottom: 10vh;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2), 
         rgba(0, 0, 0, 0.2)
@@ -330,10 +329,58 @@ a{
 
 .team{
     background-color: #FEFEFE;
+    text-align: center;
+    padding: 10vh;
+
 }
 
 .team-overlay-text{
     margin-top: 5vh;
     font-size: 4vh;
+    color: #304250;
+}
 
+.team-text{
+    color: #3A3A3A;
+    font-size: larger;
+}
+
+.team-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10vh;
+}
+
+.member-img{
+    width: 26vw;
+}
+
+.team-mem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.member-details-card{
+    background-color: #FEFEFE;
+    width: 90%;
+    position: absolute;
+    bottom: -10vh;
+    box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.493);
+
+
+}
+
+.mem-name{
+    color: #30414B;
+    text-decoration: underline #B6BFC4 2px;
+    text-underline-offset: 3vh;
+}
+.job-title{
+    padding: 2vh;
+    color: #687277;
+    
 }
