@@ -384,3 +384,45 @@ a{
     color: #687277;
     
 }
+
+/* Section 5*/
+
+.contact-page{
+    text-align: center;
+    background-color: #F2F6FA;
+}
+
+.how-to-reach{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh;
+
+}
+
+.color{
+    background-color: #FEFEFE;
+}
+
+.reach-img{
+    width: 5vh;
+}
+
+.social-address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    margin: 1vh;
+    width: 50%;
+}
+
+.phone{
+    margin: 1vh;
+    width: 50%;
+}
+
+.address{
+    width: 50%;
+}
+
