@@ -38,6 +38,14 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: whitesmoke;
 }
+
+.mainpg-it:hover{
+    
+    background-color: rgba(250, 250, 250, 0.281);
+    background-blend-mode: multiply;
+    padding: 1vh;
+
+}
 .main-content-initial{
     padding: 25vh;
     display: flex;
@@ -59,24 +67,44 @@ body{
     height: 30vh;
 }
 
-.nav-drop-1{
-    position: relative;
-    display: inline-block;
-}
-.nav-drop-2{
-    position: relative;
-    display: inline-block;
-}
+/* drop down fix */
 
-.dropdown-content{
+.dropdown-content-1{
     display: none;
     position: absolute;
+
+    background-color: whitesmoke;
+    border-radius: 12px;
 }
 
-.nav-drop-down:hover .dropdown-content{
+.nav-drop-1:hover .dropdown-content-1{
+    position: relative;
     display: block;
 }
 
+
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.mainpg-item-style{
+    background-color: transparent;
+    border-style: none;
+}
+.dropdown-content-2{
+    display: none;
+    position: absolute;
+
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+
+.nav-drop-2:hover .dropdown-content-2{
+    position: relative;
+    display: block;
+}
 
 
 
